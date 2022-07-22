@@ -5,5 +5,6 @@ Foundation Course Link: [TheOdinProject Foundation Course](https://www.theodinpr
 
 ## Solution Image
 
-**Desktop View**
+### Desktop View
+
 ![Desktop View](/solution/desktop-view.jpeg)
