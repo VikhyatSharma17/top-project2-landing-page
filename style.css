@@ -154,3 +154,47 @@ a {
 }
 
 /* quote-section css */
+
+/* signup-section css */
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+
+    outline: green solid 1px;
+}
+
+.signup-content {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+
+}
+
+.signup-content .main-text {
+    font-weight: 700;
+}
+
+.signup-content .sub-text {
+    color: #e5e7eb;
+}
+
+.signup-content button {
+    background-color: transparent;
+    color: #f9faf8;
+    width: 100px;
+    height: 25px;
+
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+/* signup-section css */ 
