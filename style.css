@@ -65,11 +65,13 @@ body {
     background-color: #3882f6;
     text-align: center;
     padding: 5px 20px;
+    width: 90px;
 
     border-radius: 5px;
     border: none;
     margin-top: 10px;
     color: #f9faf8;
+    font-family: inherit;
 }
 
 .business-logo {
@@ -189,12 +191,37 @@ a {
 .signup-content button {
     background-color: transparent;
     color: #f9faf8;
-    width: 100px;
-    height: 25px;
+    padding: 5px 20px;
+    width: 90px;
+    /* height: 25px; */
 
     border: 1px solid #f9faf8;
     border-radius: 5px;
     font-family: inherit;
+
+
+
+    /* background-color: #3882f6;
+    text-align: center;
+    
+
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    color: #f9faf8; */
 }
 
 /* signup-section css */ 
+
+/* footer css */ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+/* footer css */ 
