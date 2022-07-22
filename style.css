@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -91,7 +92,6 @@ a {
 
 .info-section {
     padding: 0 15%;
-    outline: green solid 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,8 +107,6 @@ a {
     display: flex;
     padding-bottom: 50px;
     gap: 40px;
-
-    /* outline: red solid 1px; */
 }
 
 .image-card .image{
@@ -128,3 +126,31 @@ a {
 }
 
 /* info section css */
+
+/* quote-section css */
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 15%;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quoter {
+    text-align: end;
+    width: 100%;
+    color: #1f2937;
+    font-weight: 900;
+    margin-right: 15%;
+
+}
+
+/* quote-section css */
