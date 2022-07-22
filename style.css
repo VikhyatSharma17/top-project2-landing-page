@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, Verdana, sans-serif;
+}
+
+/* header section css */
+
+.header-section {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    padding: 0 15%;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.header-text {
+    font-size: 24px;
+}
+
+.header-links ul{
+    display: flex;
+    gap: 15px;
+
+}
+
+.header-links a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.business-info-section {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.business-info-section > * {
+    width: 450px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    text-align: center;
+    padding: 5px 20px;
+
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    color: #f9faf8;
+}
+
+.business-logo {
+    background-color: #6f7982;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* header section css */
+
+/* info section css */
+
+.info-section {
+    padding: 0 15%;
+    outline: green solid 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.image-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    outline: red solid 1px;
+}
+
+.car
+
+/* info section css */
